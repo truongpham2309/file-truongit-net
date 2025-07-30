@@ -24,7 +24,7 @@
         font-size: 1.1rem;
         position: relative;
     }
-
+    set GIT_USER=truongpham2309&& npm run deploy
         /* Kẻ các đường nối */
         .directoryTree li::before {
             content: '';
