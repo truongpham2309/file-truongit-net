@@ -29,7 +29,7 @@ const config = {
     // If you aren't using GitHub pages, you don't need these.
     organizationName: 'truongpham2309', // Usually your GitHub org/user name.
     projectName: 'file-truongit-net', // Usually your repo name.
-
+    noIndex: true,
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
 
