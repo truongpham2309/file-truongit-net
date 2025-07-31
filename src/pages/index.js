@@ -153,55 +153,55 @@ const tabData = [
             {
                 title: 'Office 2024',
                 items: [
-                    { name: 'Office 2024 Professional', link: '/docs/office/2024/professional' },
-                    { name: 'Office 2024 Professional Plus', link: '/docs/office/2024/professional-plus' },
-                    { name: 'Project 2024 Professional', link: '/docs/office/2024/project' },
-                    { name: 'Visio 2024 Professional', link: '/docs/office/2024/visio' },
+                    { name: 'Office 2024 Pro', link: '/docs/office/2024/professional' },
+                    { name: 'Office 2024 Pro Plus', link: '/docs/office/2024/professional-plus' },
+                    { name: 'Project 2024 Pro', link: '/docs/office/2024/project' },
+                    { name: 'Visio 2024 Pro', link: '/docs/office/2024/visio' },
                 ],
             },
             {
                 title: 'Office 2021',
                 items: [
-                    { name: 'Office 2021 Professional', link: '/docs/office/2021/professional' },
-                    { name: 'Office 2021 Professional Plus', link: '/docs/office/2021/professional-plus' },
-                    { name: 'Project 2021 Professional', link: '/docs/office/2021/project' },
-                    { name: 'Visio 2021 Professional', link: '/docs/office/2021/visio' },
+                    { name: 'Office 2021 Pro', link: '/docs/office/2021/professional' },
+                    { name: 'Office 2021 Pro Plus', link: '/docs/office/2021/professional-plus' },
+                    { name: 'Project 2021 Pro', link: '/docs/office/2021/project' },
+                    { name: 'Visio 2021 Pro', link: '/docs/office/2021/visio' },
                 ],
             },
             {
                 title: 'Office 2019',
                 items: [
-                    { name: 'Office 2019 Professional', link: '/docs/office/2019/professional' },
-                    { name: 'Office 2019 Professional Plus', link: '/docs/office/2019/professional-plus' },
-                    { name: 'Project 2019 Professional', link: '/docs/office/2019/project' },
-                    { name: 'Visio 2019 Professional', link: '/docs/office/2019/visio' },
+                    { name: 'Office 2019 Pro', link: '/docs/office/2019/professional' },
+                    { name: 'Office 2019 Pro Plus', link: '/docs/office/2019/professional-plus' },
+                    { name: 'Project 2019 Pro', link: '/docs/office/2019/project' },
+                    { name: 'Visio 2019 Pro', link: '/docs/office/2019/visio' },
                 ],
             },
             {
                 title: 'Office 2016',
                 items: [
-                    { name: 'Office 2016 Professional', link: '/docs/office/2016/professional' },
-                    { name: 'Office 2016 Professional Plus', link: '/docs/office/2016/professional-plus' },
-                    { name: 'Project 2016 Professional', link: '/docs/office/2016/project' },
-                    { name: 'Visio 2016 Professional', link: '/docs/office/2016/visio' },
+                    { name: 'Office 2016 Pro', link: '/docs/office/2016/professional' },
+                    { name: 'Office 2016 Pro Plus', link: '/docs/office/2016/professional-plus' },
+                    { name: 'Project 2016 Pro', link: '/docs/office/2016/project' },
+                    { name: 'Visio 2016 Pro', link: '/docs/office/2016/visio' },
                 ],
             },
             {
                 title: 'Office 2013',
                 items: [
-                    { name: 'Office 2013 Professional', link: '/docs/office/2013/professional' },
-                    { name: 'Office 2013 Professional Plus', link: '/docs/office/2013/professional-plus' },
-                    { name: 'Project 2013 Professional', link: '/docs/office/2013/project' },
-                    { name: 'Visio 2013 Professional', link: '/docs/office/2013/visio' },
+                    { name: 'Office 2013 Pro', link: '/docs/office/2013/professional' },
+                    { name: 'Office 2013 Pro Plus', link: '/docs/office/2013/professional-plus' },
+                    { name: 'Project 2013 Pro', link: '/docs/office/2013/project' },
+                    { name: 'Visio 2013 Pro', link: '/docs/office/2013/visio' },
                 ],
             },
             {
                 title: 'Office 2010',
                 items: [
-                    { name: 'Office 2010 Professional', link: '/docs/office/2010/professional' },
-                    { name: 'Office 2010 Professional Plus', link: '/docs/office/2010/professional-plus' },
-                    { name: 'Project 2010 Professional', link: '/docs/office/2010/project' },
-                    { name: 'Visio 2010 Professional', link: '/docs/office/2010/visio' },
+                    { name: 'Office 2010 Pro', link: '/docs/office/2010/professional' },
+                    { name: 'Office 2010 Pro Plus', link: '/docs/office/2010/professional-plus' },
+                    { name: 'Project 2010 Pro', link: '/docs/office/2010/project' },
+                    { name: 'Visio 2010 Pro', link: '/docs/office/2010/visio' },
                 ],
             },
         ],
@@ -242,6 +242,34 @@ const tabData = [
     {
         name: 'PRINTER',
         items: [
+            {
+                name: 'Fix Printer', icon: 'printer', children: [
+                    { name: 'Fix 0x0000709', link: '/docs/printer/fix/709' },
+                    { name: 'Fix 0x000011b', link: '/docs/printer/fix/11b' },
+                    { name: 'Fix Error', link: '/docs/printer/fix/error' },
+                    { name: 'Fix Error Canon 2900, 3300', link: '/docs/printer/fix/canon-2900-3300' },
+                    { name: 'Fix PrintSpooler', link: '/docs/printer/fix/printspooler' },
+                ]
+            },
+            {
+                name: 'Driver Printer', icon: 'printer', children: [
+                    { name: 'Brother 2366DW', link: '/docs/printer/driver/brother-2366dw' },
+                    { name: 'Brother HL-B2000D', link: '/docs/printer/driver/brother-hl-b2000d' },
+                    { name: 'Canon G2010', link: '/docs/printer/driver/canon-g2010' },
+                    { name: 'Canon LBP7018C', link: '/docs/printer/driver/canon-lbp7018c' },
+                    { name: 'Canon LBP6030', link: '/docs/printer/driver/canon-lbp6030' },
+                    { name: 'Epson TM-T81', link: '/docs/printer/driver/epson-tm-t81' },
+                    { name: 'Epson T82II EWM', link: '/docs/printer/driver/epson-t82ii-ewm' },
+                ]
+            },
+        ],
+    },
+    {
+        name: 'BVXA',
+        items: [
+            { name: 'HisPro 2.367.0', link: '/'},
+            { name: 'Webcam Captrue', link: '/'},
+            { name: 'ITSupport Widget', link: '/'},
             {
                 name: 'Fix Printer', icon: 'printer', children: [
                     { name: 'Fix 0x0000709', link: '/docs/printer/fix/709' },

@@ -1,9 +1,13 @@
 ﻿import React, { useState } from 'react';
-import md5 from 'crypto-js/md5'; // <-- Import thư viện mã hóa
-import users from '@site/src/data/users.json'; // <-- Import file danh sách người dùng
+import md5 from 'crypto-js/md5'; 
+
+const CORRECT_PASSWORD_HASHES = [
+    '709a922ce81c73e2549800a2b1d7ee09',
+    'bb4399287a367c4e36bb69dd864d103c',
+];
+// ======================================================
 
 export default function LoginOverlay({ onLoginSuccess }) {
-    const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
@@ -13,39 +17,28 @@ export default function LoginOverlay({ onLoginSuccess }) {
         // 1. Mã hóa mật khẩu người dùng vừa nhập bằng MD5
         const enteredPasswordHash = md5(password).toString();
 
-        // 2. Tìm người dùng trong file JSON
-        const foundUser = users.find(
-            (user) => user.username === username && user.passwordHash === enteredPasswordHash
-        );
-
-        // 3. Kiểm tra kết quả
-        if (foundUser) {
+        // 2. Kiểm tra xem mật khẩu đã mã hóa có nằm trong danh sách hợp lệ không
+        if (CORRECT_PASSWORD_HASHES.includes(enteredPasswordHash)) {
             setError('');
             onLoginSuccess(); // Đăng nhập thành công
         } else {
-            setError('Tên đăng nhập hoặc mật khẩu không chính xác.');
+            setError('Mật khẩu không chính xác.');
         }
     };
 
     return (
         <div className="loginOverlay">
             <div className="loginBox">
-                <h2>Đăng nhập</h2>
-                <p>Vui lòng nhập thông tin để truy cập kho tài nguyên.</p>
+                <h2>Yêu cầu truy cập</h2>
+                <p>Vui lòng nhập mật khẩu để tiếp tục.</p>
                 <form onSubmit={handleSubmit}>
-                    <input
-                        type="text"
-                        placeholder="Tên đăng nhập"
-                        value={username}
-                        onChange={(e) => setUsername(e.target.value)}
-                        required
-                    />
                     <input
                         type="password"
                         placeholder="Mật khẩu"
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         required
+                        autoFocus /* Tự động trỏ vào ô mật khẩu */
                     />
                     {error && <p className="loginError">{error}</p>}
                     <button type="submit">Truy cập</button>
