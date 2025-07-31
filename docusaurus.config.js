@@ -10,8 +10,8 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-    title: 'My Files - TruongIT.NET',
-    tagline: 'Dinosaurs are cool',
+    title: 'Kho tài nguyên - TruongIT.NET',
+    tagline: 'Kho lưu trữ tài nguyên cá nhân.', // <-- Đã cập nhật
     favicon: 'img/favicon.ico',
 
     // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -51,23 +51,9 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                        'https://github.com/truongpham2309/file-truongit-net/tree/main/', // <-- Đã cập nhật
                 },
-                blog: {
-                    showReadingTime: true,
-                    feedOptions: {
-                        type: ['rss', 'atom'],
-                        xslt: true,
-                    },
-                    // Please change this to your repo.
-                    // Remove this to remove the "edit this page" links.
-                    editUrl:
-                        'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-                    // Useful options to enforce blogging best practices
-                    onInlineTags: 'warn',
-                    onInlineAuthors: 'warn',
-                    onUntruncatedBlogPosts: 'warn',
-                },
+                blog: false, // <-- Tắt trang Blog vì không dùng
                 theme: {
                     customCss: './src/css/custom.css',
                 },
@@ -78,12 +64,18 @@ const config = {
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            // Cài đặt Dark Mode mặc định
+            colorMode: {
+                defaultMode: 'dark',
+                disableSwitch: false,
+                respectPrefersColorScheme: false,
+            },
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'My Site',
+                title: 'TruongIT.NET', // <-- Đã cập nhật
                 logo: {
-                    alt: 'My Site Logo',
+                    alt: 'TruongIT.NET Logo',
                     src: 'img/logo.svg',
                 },
                 items: [
@@ -91,11 +83,11 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: 'Tutorial',
+                        label: 'Tài nguyên', // <-- Đã cập nhật
                     },
-                    { to: '/blog', label: 'Blog', position: 'left' },
+                    // { to: '/blog', label: 'Blog', position: 'left' }, // Tắt Blog
                     {
-                        href: 'https://github.com/facebook/docusaurus',
+                        href: 'https://github.com/truongpham2309/file-truongit-net', // <-- Đã cập nhật
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -103,48 +95,8 @@ const config = {
             },
             footer: {
                 style: 'dark',
-                links: [
-                    {
-                        title: 'Docs',
-                        items: [
-                            {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'Community',
-                        items: [
-                            {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'X',
-                                href: 'https://x.com/docusaurus',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            {
-                                label: 'Blog',
-                                to: '/blog',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
-                            },
-                        ],
-                    },
-                ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                links: [], // Xóa các link ở footer cho gọn
+                copyright: `Copyright © ${new Date().getFullYear()} TruongIT.NET. Built with Docusaurus.`, // <-- Đã cập nhật
             },
             prism: {
                 theme: prismThemes.github,
