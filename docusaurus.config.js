@@ -83,12 +83,12 @@ const config = {
                         type: 'docSidebar',
                         sidebarId: 'tutorialSidebar',
                         position: 'left',
-                        label: 'Tài nguyên', // <-- Đã cập nhật
+                        label: 'Tài liệu',
                     },
                     // { to: '/blog', label: 'Blog', position: 'left' }, // Tắt Blog
                     {
                         href: 'https://github.com/truongpham2309/file-truongit-net', // <-- Đã cập nhật
-                        label: 'GitHub',
+                        label: 'Upload',
                         position: 'right',
                     },
                 ],
