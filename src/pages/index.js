@@ -267,29 +267,11 @@ const tabData = [
     {
         name: 'BVXA',
         items: [
-            { name: 'HisPro 2.367.0', link: '/'},
+            { name: 'HisPro 2.367.0 (CC)', link: '/'},
+            { name: 'HisPro 2.369.0 (TN)', link: '/'},
             { name: 'Webcam Captrue', link: '/'},
             { name: 'ITSupport Widget', link: '/'},
-            {
-                name: 'Fix Printer', icon: 'printer', children: [
-                    { name: 'Fix 0x0000709', link: '/docs/printer/fix/709' },
-                    { name: 'Fix 0x000011b', link: '/docs/printer/fix/11b' },
-                    { name: 'Fix Error', link: '/docs/printer/fix/error' },
-                    { name: 'Fix Error Canon 2900, 3300', link: '/docs/printer/fix/canon-2900-3300' },
-                    { name: 'Fix PrintSpooler', link: '/docs/printer/fix/printspooler' },
-                ]
-            },
-            {
-                name: 'Driver Printer', icon: 'printer', children: [
-                    { name: 'Brother 2366DW', link: '/docs/printer/driver/brother-2366dw' },
-                    { name: 'Brother HL-B2000D', link: '/docs/printer/driver/brother-hl-b2000d' },
-                    { name: 'Canon G2010', link: '/docs/printer/driver/canon-g2010' },
-                    { name: 'Canon LBP7018C', link: '/docs/printer/driver/canon-lbp7018c' },
-                    { name: 'Canon LBP6030', link: '/docs/printer/driver/canon-lbp6030' },
-                    { name: 'Epson TM-T81', link: '/docs/printer/driver/epson-tm-t81' },
-                    { name: 'Epson T82II EWM', link: '/docs/printer/driver/epson-t82ii-ewm' },
-                ]
-            },
+            { name: 'VNC Server BVXA', link: '/'},            
         ],
     },
 ];
