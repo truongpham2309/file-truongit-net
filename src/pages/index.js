@@ -274,9 +274,9 @@ const tabData = [
         items: [
             { name: 'HisPro 2.367.0 (CC)', link: '/'},
             { name: 'HisPro 2.369.0 (TN)', link: '/'},
-            { name: 'Webcam Captrue', link: '/'},
-            { name: 'ITSupport Widget', link: '/'},
-            { name: 'VNC Server BVXA', link: '/'},            
+            { name: 'Webcam Captrue', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EVYv4MT2qgpJrAr87Qka4qoB8o7S0lBBJCBaAwDotyHg_A?download=1'},
+            { name: 'ITSupport Widget', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/Ed-wzMCkjJpAlQtC0jHdPX4BXiBhaO4P4kIbBb2Tn2Dzfw?download=1'},
+            { name: 'VNC Server BVXA', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EZPyQFmO6khJr4gtjbe6QRYBwS_1ay2lKiZmwrHdkw2arw?download=1'},            
         ],
     },
 ];
