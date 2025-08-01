@@ -22,35 +22,39 @@ const tabData = [
         items: [
             {
                 name: 'Google Chrome', children: [
-                    { name: 'Google Chrome x86', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/admin_truongit_net/EQMlPl_70zxIimn_OuadiGQBiaTy9yoeA5N8867HpuDllA?download=1' },
-                    { name: 'Google Chrome x64', link: '/docs/software/google-chrome/x64' },
+                    { name: 'Google Chrome 138.0.7204.184 - 32 bit', link: 'https://dl.google.com/release2/chrome/adpanowgeooql6x3z5aebmcvhlha_138.0.7204.184/138.0.7204.184_chrome_installer_uncompressed.exe' },
+                    { name: 'Google Chrome 138.0.7204.184 - 64 bit', link: 'https://dl.google.com/release2/chrome/h5cbgnnhhw2lr35rflchltnqcm_138.0.7204.184/138.0.7204.184_chrome_installer_uncompressed.exe' },
                 ]
             },
             {
                 name: 'Cốc Cốc', children: [
-                    { name: 'Cốc Cốc x86', link: '/docs/software/coc-coc/x86' },
-                    { name: 'Cốc Cốc x64', link: '/docs/software/coc-coc/x64' },
+                    { name: 'Cốc Cốc 123.0.168 (VietNam)', link: 'https://files.coccoc.com/browser/coccoc_standalone_vi.exe' },
+                    { name: 'Cốc Cốc 123.0.168 (English)', link: 'https://files.coccoc.com/browser/coccoc_standalone_en.exe' },
                 ]
             },
             {
                 name: 'WinRAR', children: [
-                    { name: 'WinRAR x86', link: '/docs/software/winrar/x86' },
-                    { name: 'WinRAR x64', link: '/docs/software/winrar/x64' },
+                    { name: 'WinRAR 7.13 (English)', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EcM4QWsScP1Du7sSwCyV4zQBsvJvTQKiYWKzEaCoelkZWQ?download=1' },
+                    { name: 'WinRAR 7.13 (Vietnamese)', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EYxx3TfOxS9JjoYLdVGifUABZ5BmsdxMklPiKSgVJtNS7g?download=1' },
                 ]
             },
             {
                 name: '7-Zip', children: [
-                    { name: '7-Zip x86', link: '/docs/software/7-zip/x86' },
-                    { name: '7-Zip x64', link: '/docs/software/7-zip/x64' },
+                    { name: '7-Zip 25.00 - 32 bit', link: 'https://www.7-zip.org/a/7z2500-x64.exe' },
+                    { name: '7-Zip 25.00 - 64 bit', link: 'https://www.7-zip.org/a/7z2500.exe' },
                 ]
             },
             {
                 name: 'Unikey', children: [
-                    { name: 'Unikey x86', link: '/docs/software/unikey/x86' },
-                    { name: 'Unikey x64', link: '/docs/software/unikey/x64' },
+                    { name: 'UniKey 4.6 RC2 - 32 bit', link: 'https://www.unikey.org/assets/release/unikey46RC2-230919-win32.zip' },
+                    { name: 'UniKey 4.6 RC2 - 64 bit', link: 'https://www.unikey.org/assets/release/unikey46RC2-230919-win64.zip' },
                 ]
             },
-            { name: 'Onekey Ghost', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/admin_truongit_net/EQMlPl_70zxIimn_OuadiGQBiaTy9yoeA5N8867HpuDllA?download=1' },
+            {
+                name: 'Onekey Ghost', children: [
+                    { name: 'Onekey Ghost V14.5.8.215', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/Ee5bRgrNx_hAv9eTyfxzT3gB2hSaNM8Cz0xDpohyjXqk1Q?download=1' },
+                ]                
+            },
             { name: 'Zalo', link: '/docs/software/zalo' },
             { name: 'Foxit Reader', link: '/docs/software/foxit-reader' },
             { name: 'Foxit Editor', link: '/docs/software/foxit-editor' },
@@ -144,6 +148,7 @@ const tabData = [
             { name: 'TeraCopy Pro', link: '/docs/tools/teracopy-pro' },
             { name: 'Rufus', link: '/docs/tools/rufus' },
             { name: 'TempCleaner', link: '/docs/tools/temp-cleaner' },
+            { name: 'Reset Trail Anydesk', link: '/docs/tools/temp-cleaner' },
         ],
     },
     {

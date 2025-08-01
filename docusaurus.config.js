@@ -51,7 +51,7 @@ const config = {
                     // Please change this to your repo.
                     // Remove this to remove the "edit this page" links.
                     editUrl:
-                        'https://github.com/truongpham2309/file-truongit-net/tree/main/', // <-- Đã cập nhật
+                        'https://github.com/truongpham2309/file-truongit-net/tree/main/', 
                 },
                 blog: false, // <-- Tắt trang Blog vì không dùng
                 theme: {
@@ -87,8 +87,8 @@ const config = {
                     },
                     // { to: '/blog', label: 'Blog', position: 'left' }, // Tắt Blog
                     {
-                        href: 'https://github.com/truongpham2309/file-truongit-net', // <-- Đã cập nhật
-                        label: 'Upload',
+                        href: 'https://itculi-my.sharepoint.com/:f:/g/personal/download_truongit_net/Etv0WaiTUAlNvNMuSDmYsUcBhec811-0APooQt8d98Fo_g', 
+                        label: 'UPLOAD',
                         position: 'right',
                     },
                 ],
@@ -96,7 +96,7 @@ const config = {
             footer: {
                 style: 'dark',
                 links: [], // Xóa các link ở footer cho gọn
-                copyright: `Copyright © ${new Date().getFullYear()} TruongIT.NET. Built with Docusaurus.`, // <-- Đã cập nhật
+                copyright: `Copyright © ${new Date().getFullYear()} TruongIT.NET. Built with Docusaurus.`,
             },
             prism: {
                 theme: prismThemes.github,
