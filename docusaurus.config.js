@@ -73,7 +73,7 @@ const config = {
             // Replace with your project's social card
             image: 'img/docusaurus-social-card.jpg',
             navbar: {
-                title: 'TruongIT.NET', // <-- Đã cập nhật
+                title: 'My Files - TruongIT.NET',
                 logo: {
                     alt: 'TruongIT.NET Logo',
                     src: 'img/logo.svg',

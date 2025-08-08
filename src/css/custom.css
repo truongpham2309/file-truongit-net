@@ -107,7 +107,7 @@
 
 /* --- CSS MỚI CHO GIAO DIỆN NHÓM OFFICE --- */
 .itemGroup {
-  margin-bottom: 2.5rem;
+  margin-bottom: 16px;
 }
 
 .itemGroup:last-child {
