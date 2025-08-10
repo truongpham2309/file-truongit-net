@@ -98,7 +98,9 @@ const tabData = [
       { name: 'CCleaner', children: [
           { name: 'Professional Portable v5.84.9126', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/ETxWoso985dGrQRASjqtlFQB1zB7zP8eCQUlKrJbHVAsBQ?download=1' },
       ]},
-      { name: 'IDM', link: '/docs/software/idm' },
+      { name: 'IDM', children: [
+          { name: 'IDM', link: '/' },
+      ]},
       { name: 'FastStone Capture', children: [
           { name: 'FastStone Capture 11.0', link: '/' },
       ]},
@@ -107,10 +109,11 @@ const tabData = [
   {
     name: 'TOOLS',
     items: [
-      { name: 'MS Activation', link: '/docs/tools/microsoft-activation-scripts' },
+      { name: 'MS Activation', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/admin_truongit_net/EfTNbpk5sjxOrN7e7a-bC6wBKsAUq7UutSRD0xnbQCfHKQ?download=1' },
       { name: '3DP Chip', children: [
-          { name: '3DP Chip', link: '/docs/tools/3dp-chip/main' },
-          { name: '3DP Chip Net', link: '/docs/tools/3dp-chip/net' },
+          { name: '3DP Chip', link: 'https://www.3dpchip.com/new/3DP_Chip_v2507.exe' },
+          { name: '3DP Chip Net', link: 'https://www.3dpchip.com/new/3DP_Net_v2101.exe' },
+          { name: '3DP Cleaner', link: 'https://driver3.3dpchip.com/3DP_Cleaner_v1412.exe' },
       ]},
       { name: 'Easy Driver Win7', children: [
           { name: 'Easy Driver Windows 7 x86', link: '/docs/tools/easy-driver-win7/x86' },
