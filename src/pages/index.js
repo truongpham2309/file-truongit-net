@@ -74,7 +74,7 @@ const tabData = [
           { name: 'Notepad++ 8.8.3 - 32 bit', link: 'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.3/npp.8.8.3.Installer.exe' },
           { name: 'Notepad++ 8.8.3 - 64 bit', link: 'https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.8.3/npp.8.8.3.Installer.x64.exe' },
       ]},
-      { name: '.NET AIO 1.1 - 9.0.1', link: '/docs/software/dotnet-framework-aio' },
+      { name: '.NET AIO 1.1 - 9.0.1', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/Edq0i-Yl-OBImG1BeaPag_kB6-9BmxpsXG20Q_eVmMZoKQ?download=1' },
       { name: 'Audacity', children: [
           { name: 'Audacity 3.7.4 - 32 bit', link: 'https://github.com/audacity/audacity/releases/download/Audacity-3.7.4/audacity-win-3.7.4-32bit.exe' },
           { name: 'Audacity 3.7.4 - 64 bit', link: 'https://github.com/audacity/audacity/releases/download/Audacity-3.7.4/audacity-win-3.7.4-64bit.exe' },
@@ -96,9 +96,7 @@ const tabData = [
           { name: 'UltraISO Premium Edition 9.7.6.3860', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EdrCQNmlRp1NownY-MzCK7IB8VLw2ks29PS5yHb_qogcGw?download=1' },
       ]},
       { name: 'CCleaner', children: [
-          { name: 'CCleaner Pro 6.38.11537', link: '/' },
-          { name: 'CCleaner Pro Business', link: '/' },
-          { name: 'CCleaner Pro Technician', link: '/' },
+          { name: 'Professional Portable v5.84.9126', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/ETxWoso985dGrQRASjqtlFQB1zB7zP8eCQUlKrJbHVAsBQ?download=1' },
       ]},
       { name: 'IDM', link: '/docs/software/idm' },
       { name: 'FastStone Capture', children: [
