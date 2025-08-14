@@ -257,7 +257,7 @@ const tabData = [
           { name: 'HisPro 2.367.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EUxkquymfoxJuL7MChck3_sBI6ssjX3yFnqgstMpTTod2Q?download=1' },
       ]},
       { name: 'HisPro Tây Ninh', children: [
-          { name: 'HisPro 2.369.0', link: '/' },
+          { name: 'HisPro 2.369.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EYU5UnSDO5FAkC_QjvOMtZYBvBKgwOGOZSt1sBTYJiYWBg?download=1' },
       ]},
       { name: 'VPN các chi nhánh', children: [
           { name: 'VPN Xuyên Á Củ Chi', link: '/' },
