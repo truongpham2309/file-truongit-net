@@ -254,8 +254,8 @@ const tabData = [
     name: 'BVXA',
     items: [
       { name: 'HisPro Củ Chi', children: [
-          { name: 'HisPro 2.367.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EUxkquymfoxJuL7MChck3_sBI6ssjX3yFnqgstMpTTod2Q?download=1' },
           { name: 'HisPro 2.373.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/ESHbaQsmGtFJi7wDd9Cfap0BCnXN3xTHmVTrc5k5Oh-B7w?download=1' },
+          { name: 'HisPro 2.367.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EUxkquymfoxJuL7MChck3_sBI6ssjX3yFnqgstMpTTod2Q?download=1' },          
       ]},
       { name: 'HisPro Tây Ninh', children: [
           { name: 'HisPro 2.369.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EYU5UnSDO5FAkC_QjvOMtZYBvBKgwOGOZSt1sBTYJiYWBg?download=1' },
