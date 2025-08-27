@@ -99,10 +99,10 @@ const tabData = [
           { name: 'Professional Portable v5.84.9126', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/ETxWoso985dGrQRASjqtlFQB1zB7zP8eCQUlKrJbHVAsBQ?download=1' },
       ]},
       { name: 'IDM', children: [
-          { name: 'IDM', link: '/' },
+          { name: 'Internet Download Manager 6.42', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EaTQmbQ01WxIj1NJ_iNVlZsBW_0JPuMZQj3C5C3NOtV6xA?download=1' },
       ]},
       { name: 'FastStone Capture', children: [
-          { name: 'FastStone Capture 11.0', link: '/' },
+          { name: 'FastStone Capture 11.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EaRsfIHV2ShDhp9OV_ejPbgBM_9xoZ0a4UPjsvaTdx09-w?download=1' },
       ]},
     ],
   },
@@ -255,6 +255,7 @@ const tabData = [
     items: [
       { name: 'HisPro Củ Chi', children: [
           { name: 'HisPro 2.367.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EUxkquymfoxJuL7MChck3_sBI6ssjX3yFnqgstMpTTod2Q?download=1' },
+          { name: 'HisPro 2.373.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/ESHbaQsmGtFJi7wDd9Cfap0BCnXN3xTHmVTrc5k5Oh-B7w?download=1' },
       ]},
       { name: 'HisPro Tây Ninh', children: [
           { name: 'HisPro 2.369.0', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EYU5UnSDO5FAkC_QjvOMtZYBvBKgwOGOZSt1sBTYJiYWBg?download=1' },
@@ -268,6 +269,7 @@ const tabData = [
       { name: 'Webcam Captrue', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EVYv4MT2qgpJrAr87Qka4qoB8o7S0lBBJCBaAwDotyHg_A?download=1'},
       { name: 'ITSupport Widget', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/Ed-wzMCkjJpAlQtC0jHdPX4BXiBhaO4P4kIbBb2Tn2Dzfw?download=1'},
       { name: 'VNC Server BVXA', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EZPyQFmO6khJr4gtjbe6QRYBwS_1ay2lKiZmwrHdkw2arw?download=1'},
+      { name: 'Read QRCode', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EStEE9cNkrJHm40Li14G7REBjZFpYWiOk89E3Sr3B-a1xQ?download=1'},
     ],
   },
 ];
