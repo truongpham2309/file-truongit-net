@@ -243,8 +243,8 @@ const tabData = [
       { name: 'Fix 0x0000709', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/ERjlF7jN8stPnqwz2grUcMEBZaJpgwOJ4aj0jS0NlHm6Gg?download=1' },   
       { name: 'Fix 0x0000007c', children: [
             { name: 'File reg cho Windows 10 v1809 và Windows Server 2019', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EfpKylpDhzZDgTteGIAE3nABQSmY5k3cFGW2BKzj9ahMlA?download=1' },
-            { name: 'File .reg cho Windows 10 Version 1909', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EcFItCVXjyRLo9t01atxCu4BckAhlDaYgk6Rhu-r3CStZw?download=1' },
-            { name: 'File .reg cho Windows 10 Version 2004, 20H2, 21H1, 21H2', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EVB1jMTfHc9Fpj4jmdT3INgB-GW8JaPSQ4-ocRRwLY9Adw?download=1' },
+            { name: 'File .reg cho Windows 10 v1909', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EcFItCVXjyRLo9t01atxCu4BckAhlDaYgk6Rhu-r3CStZw?download=1' },
+            { name: 'File .reg cho Windows 10 2004, v20H2, v21H1, v21H2', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/EVB1jMTfHc9Fpj4jmdT3INgB-GW8JaPSQ4-ocRRwLY9Adw?download=1' },
       ]},
       { name: 'Driver Printer', icon: 'printer', children: [
           { name: 'Brother 2366DW', link: '/docs/printer/driver/brother-2366dw' },
