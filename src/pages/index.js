@@ -233,7 +233,7 @@ const tabData = [
     name: 'PRINTER',
     items: [
       { name: 'Fix Printer', icon: 'printer', children: [
-          { name: 'Fix 0x0000709', link: '/docs/printer/fix/709' },
+          { name: 'Fix 0x0000709', link: 'https://itculi-my.sharepoint.com/:u:/g/personal/download_truongit_net/ERjlF7jN8stPnqwz2grUcMEBZaJpgwOJ4aj0jS0NlHm6Gg?download=1' },
           { name: 'Fix 0x000011b', link: '/docs/printer/fix/11b' },
           { name: 'Fix Error', link: '/docs/printer/fix/error' },
           { name: 'Fix Error Canon 2900, 3300', link: '/docs/printer/fix/canon-2900-3300' },
