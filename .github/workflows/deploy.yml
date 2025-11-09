@@ -1,0 +1,22 @@
+name: Deploy web_thangvq (self-hosted)
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, linux, x64]
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Deploy to /srv/docker/web_thangvq/www
+        run: |
+          mkdir -p /srv/docker/web_thangvq/www
+          rsync -av --delete --exclude ".git/" --exclude ".github/" ./ /srv/docker/web_thangvq/www/
+
+      - name: (Optional) reload nginx in container
+        run: |
+          docker exec web_thangvq nginx -s reload || true
